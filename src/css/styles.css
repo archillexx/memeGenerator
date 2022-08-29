@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(#1e004e, #630056);
+    display: flex;
+    justify-content: space-between;
+}
+
+.branding__section{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.branding__section > h2{
+    font-size: 1.5rem;
+}
+
+.logo{
+    padding-right: 20px;
+}
+
+.navbar > h6 {
+    font-size: 1rem;
+    color: rgb(198, 198, 198);
+    padding-right: 40px;
+}
+
+.main__container{
+    margin: 50px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.input__container{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    
+}
+
+.submit__btn{
+    background: linear-gradient(#1e004e, #630056);
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.input{
+    border: none;
+    width: 200px;
+    background-color: rgb(230, 230, 230);
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 40px 50px;
+    text-align: center;
+}
